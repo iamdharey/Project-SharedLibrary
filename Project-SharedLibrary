@@ -15,7 +15,7 @@ def call(String stageName){
        sh "mvn clean deploy"
      }
 }
-
+/*
 Jenkinsfile
 //@Library('LibraryName') _ 
 // Declarative pipeline
@@ -49,3 +49,4 @@ stage("Upload Artifacts Into Nexus"){
     common("Upload Into Nexus")
 }
 }
+*/
